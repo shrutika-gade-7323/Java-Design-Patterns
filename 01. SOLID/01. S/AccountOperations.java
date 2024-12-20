@@ -11,7 +11,7 @@ public class AccountOperations {
         accountMap.put(account.getAccountNumber(), account);
     }
 
-    public Account geAccount(int accountNumber) {
+    public Account getAccount(int accountNumber) {
         return accountMap.get(accountNumber);
     }
 
