@@ -7,7 +7,7 @@ public class CreditCardLoan implements LoanPayment{
     }
 
     @Override
-    public void forceCloseLoan() {
+    public void foreCloseLoan() {
         throw new UnsupportedOperationException("Force Closure Not Allowed");
     }
 

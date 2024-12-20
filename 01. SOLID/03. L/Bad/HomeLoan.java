@@ -7,7 +7,7 @@ public class HomeLoan implements LoanPayment{
     }
 
     @Override
-    public void forceCloseLoan() {
+    public void foreCloseLoan() {
 
     }
 

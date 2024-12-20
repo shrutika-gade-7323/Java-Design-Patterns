@@ -6,6 +6,6 @@ package Bad;
  * For credit card / personal loan which is unssecured, ForceClosure and Repayment is not allowed.**/
 public interface LoanPayment {
     public void doPayment(int amount);
-    public void forceCloseLoan();
+    public void foreCloseLoan();
     public void doRepayment(int amount);    
 }

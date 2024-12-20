@@ -7,7 +7,7 @@ public class HomeLoan implements SecureLoan{
     }
 
     @Override
-    public void forceCloseLoan() {
+    public void foreCloseLoan() {
         
     }
 }

@@ -8,6 +8,6 @@ public class LoanClosureService {
     }
 
     public void forceCloseLoan() {
-        secureLoan.forceCloseLoan();
+        secureLoan.foreCloseLoan();
     }
 }
