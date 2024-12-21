@@ -12,9 +12,11 @@ public class Calculator {
         int result = 0;
         switch (operation) {
             case "add":
-                result = a + b;
+                AddOperation addOperation = new AddOperation();
+                result = addOperation.add(a, b);
             case "sub":
-                result = a - b;
+                SubOperation subOperation = new SubOperation();
+                result = subOperation.sub(a, b);
         }
         return result;
     }
